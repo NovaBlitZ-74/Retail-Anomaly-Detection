@@ -1,0 +1,14 @@
+<html>
+    <body>
+        <form action= '/predict' method='POST'>
+            Quantity <input type='text' name='Quantity'><br>
+            UnitPrice: <input type='text' name='UnitPrice'><br>
+            Sales: <input type='text' name='Sales'><br>
+            Rolling Mean: <input type='text' name='Sales_rolling_mean'><br>
+            Percentage Change: <input type='text' name='Sales_pct_change'><br>
+            Lag: <input type='text' name='Sales_lag'><br>
+            Results: {{result}} <br>
+            <input type='submit' value='Predict'>
+        </form>
+    </body>
+</html>
