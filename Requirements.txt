@@ -1,0 +1,7 @@
+pandas
+numpy
+scikit-learn
+xgboost
+lightgbm
+Flask==2.1.1
+joblib==1.0.1
